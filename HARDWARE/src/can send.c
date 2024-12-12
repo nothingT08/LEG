@@ -31,7 +31,7 @@ void PlateCan(void)
 	TxMessage.Data[6]=PowerHeatData.shooter_id1_17mm_cooling_heat<<8>>8;
 	TxMessage.Data[7]=PowerHeatData.shooter_id1_17mm_cooling_heat>>8;
 	
-	CAN_Transmit(CAN2, &TxMessage);  
+	CAN_Transmit(CAN1, &TxMessage);  
 
 }	
 
