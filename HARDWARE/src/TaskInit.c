@@ -21,7 +21,7 @@ int Ctrl_state=0;
 int Invincible_State;
 extern int speed_zero;
 extern ext_game_state_t 				GameState;
-extern ext_power_heat_data_t		PowerHeatData;				//0x0202
+extern ext_power_heat_data_t		PowerHeatData;				//0x0202  0x202
 extern ext_game_robot_state_t		GameRobotStat;				//0x0201
 
 TaskHandle_t 	CHASSISTask_Handler;
