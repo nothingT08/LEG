@@ -317,7 +317,7 @@ float RAMP_float( float final, float now, float ramp );
 
 
 
-
+struct kf_t;
 typedef struct kf_t
 {
     float *FilteredValue;
