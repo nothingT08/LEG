@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "pid.h": "c",
+        "can.h": "c",
+        "taskinit.h": "c"
+    }
+}
